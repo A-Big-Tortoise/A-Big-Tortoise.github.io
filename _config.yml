@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jiayu
 middle_name: 
 last_name: Chen
-contact_note: >
-  first[dot]last[at]uga[dot]edu
+contact_note: "first[dot]last[at]uga[dot]edu"
 description: "I am a second-year Ph.D. student in the College of Engineering at the University of Georgia (UGA), advised by Dr. Wenzhan Song. I received my bachelor’s degree from Hohai University. My research interests mainly focus on Mobile Sensing, Health Monitoring, and Signal Processing." 
 footer_text: ""
 keywords: , jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
