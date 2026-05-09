@@ -9,7 +9,7 @@ last_name: Chen
 contact_note: "first[dot]last[at]uga[dot]edu"
 description: "I am a second-year Ph.D. student in the College of Engineering at the University of Georgia (UGA), advised by Dr. Wenzhan Song. I received my bachelor’s degree from Hohai University. My research interests mainly focus on Mobile Sensing, Health Monitoring, and Signal Processing." 
 footer_text: ""
-keywords: , jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: "" # add your own keywords or leave empty
 lang: en # jekyllthe language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
