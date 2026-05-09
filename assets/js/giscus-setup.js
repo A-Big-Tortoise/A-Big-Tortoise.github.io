@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "A-Big-Tortoise/A-Big-Tortoise.github.io",
+    "data-repo": "A-Big-Tortoise/a-big-tortoise.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
