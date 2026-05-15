@@ -64,6 +64,16 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Awards -->
+    {% if page.awards and page.awards.enabled %}
+      <h2>awards</h2>
+      <ul>
+        {% for item in page.awards.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Services -->
     {% if page.services and page.services.enabled %}
       <h2>services</h2>

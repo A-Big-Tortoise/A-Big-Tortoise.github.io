@@ -15,6 +15,11 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 
+awards:
+  enabled: true
+  items:
+    - "National Scholarship of China"
+
 services:
   enabled: true
   items:
