@@ -16,4 +16,23 @@
   doi         = {10.1145/3770701},
   url         = {https://dl.acm.org/doi/abs/10.1145/3770701},
   abstract    = {Cardiovascular diseases (CVDs) remain a major global health challenge, highlighting the urgent need for advanced cardiac monitoring solutions. Continuous, contactless cardiac monitoring using seismic sensors enables comfortable, privacy-preserving assessments by capturing subtle heart vibrations. However, these systems are highly susceptible to diverse noise sources. Existing denoising methods struggle to handle the complex noise in cardiac seismic signals and poorly leverage the abundant unlabeled data. To address these challenges, we propose SelfDenoiser, a self-supervised framework for denoising and reconstructing cardiac seismic signals using unlabeled data. During training, SelfDenoiser first selects clean segments from the unlabeled pool, then injects adaptive noise into each segment to simulate shared, hard-to-remove interference commonly observed in real-world noise distributions. In addition, realistic artifacts are extracted and integrated into clean signals to model high-intensity, abrupt noise events. An encoder-decoder network designed with fixed temporal resolution is subsequently trained to recover the clean signals, guided by a loss function that captures both temporal and spectral characteristics. We evaluated SelfDenoiser on 11,392 hours of data collected in an Intensive Care Unit (ICU) using seismic sensor-based systems. The model was trained on 610 hours of clean signals selected from a 5176-hour unlabeled pool and tested on a 6216-hour labeled dataset. Results showed substantial improvements in two downstream tasks: heart rate (HR) and inter-beat interval (IBI) estimation, with notably increased data utilization and better accuracy compared to conventional denoising methods. This highlights SelfDenoiser's capability to transform low-quality, noisy signals into high-fidelity, reliable cardiac data.},
+  code        = {https://www.kaggle.com/datasets/bigtortoise/selfdenoiser-dataset},
 }
+
+
+@article{song2025multi,
+  title={Multi-granularity Supervised Contrastive Learning with Online Adaptation for Contactless In-bed Posture Classification},
+  author={Song, Yingjian and Xiang, Haotian and Zeng, Zixuan and Chen, Jiayu and Zhang, Yida and Pitafi, Zaid Farooq and Yang, He and Lu, Qin and Zhang, Xiang and Phillips, Bradley G and others},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={9},
+  number={2},
+  pages={1--32},
+  year={2025},
+  publisher={ACM New York, NY, USA},
+  selected    = {true},
+  url = {https://dl.acm.org/doi/abs/10.1145/3729464},
+  doi = {10.1145/3729464},
+  abstract={In-bed postures offer valuable information about an individual's sleep quality and overall health conditions, particularly for patients with sleep apnea. However, current in-bed posture classification systems lack privacy-friendly and easy-to-install options. Furthermore, existing solutions do not consider variations between patients and are typically trained only once, neglecting the utilization of time consistency and unlabeled data from new patients. To address these limitations, this paper builds on a seismic sensor to introduce a novel sleep posture framework, which comprises two main components, namely, the Multi-Granularity Supervised Contrastive Learning (MGSCL) module and the ensemble Online Adaptation (oa) module. Unlike most existing contrastive learning frameworks that operate at the sample level, MGSCL leverages multi-granular information, operating not only at the sample level but also at the group level. The oa module enables the model to adapt to new patient data while ensuring time consistency in sleep posture predictions. Additionally, it quantifies model uncertainty to generate weighted predictions, further enhancing performance. Evaluated on a dataset of 100 patients collected at a clinical research center, MGSCLoa achieved an average accuracy of 91.67% and an average F1 score of 91.53% with only 40 seconds of labeled data per posture. In a Phase 2 evaluation with 11 participants over 13 nights in home settings, the framework reached an average accuracy of 85.37% and a weighted F1 score of 83.59% using just 3 minutes of labeled data per common posture for each participant. These results underscore the potential of seismic sensor-based in-bed posture classification for assessing sleep quality and related health conditions.}
+}
+
+
