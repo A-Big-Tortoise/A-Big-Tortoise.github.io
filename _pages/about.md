@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
@@ -14,6 +14,13 @@ profile:
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+
+services:
+  enabled: true
+  items:
+    - "Reviewer, IEEE Transactions on ..."
+    - "Reviewer, ACM ..."
+
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,10 +29,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a second-year Ph.D. student in the College of Engineering at the University of Georgia (UGA), advised by Dr. Wenzhan Song. I received my bachelor's degress from Hohai University.
+<p class="lead">
+I am a second-year Ph.D. student in the College of Engineering at the University of Georgia (UGA), advised by Dr. Wenzhan Song. I received my bachelor's degree from Hohai University.
+</p>
 
-My research insterests mainly focus on Mobile Sensing, Health Monitoring, and Signal Processing.
+<p class="lead">
+My research interests mainly focus on Mobile Sensing, Health Monitoring, and Signal Processing.
+</p>
