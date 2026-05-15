@@ -1,0 +1,56 @@
+// Global font overrides to match hzhou3.github.io style
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+// News list items
+.news table td {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+// Publication entries
+.publications .title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.publications .author,
+.publications .periodical {
+  font-size: 13px;
+  color: var(--global-text-color-light);
+}
+
+// Social icons under profile picture
+.profile .social {
+  margin-top: 0.6rem;
+  text-align: center;
+
+  .contact-icons {
+    font-size: 1.4rem;
+
+    a {
+      margin: 0 0.3rem;
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Section headings (hzhou3 style)
+.section-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
